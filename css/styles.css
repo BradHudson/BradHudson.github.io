@@ -1,0 +1,33 @@
+
+/* Defaults and Small Screen Designed for Mobile First */
+#top-bar{
+    max-width: inherit;
+    background-color: #980013;
+}
+
+#nav-center a{
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+
+/* Medium Screen */
+@media screen and (min-width: 40.063em) {
+
+#nav-center a {
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+}
+
+/* Large Screen */
+@media only screen and (min-width: 64.063em) {
+
+#nav-center a {
+    font-size: 40px;
+}
+
+}
