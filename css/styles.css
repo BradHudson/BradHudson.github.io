@@ -5,7 +5,12 @@
     background-color: #980013;
 }
 
-#nav-center{  
+
+#images{
+    text-align: center;
+}
+
+#nav-center{
     text-align: center;
 }
 
@@ -73,10 +78,6 @@
     font-size: 30px;
     padding-left: 50px;
     padding-right: 50px;
-}
-
-#images{
-    text-align: center;
 }
 
 #images #ruby-logo{
