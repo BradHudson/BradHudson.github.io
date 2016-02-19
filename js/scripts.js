@@ -1,11 +1,10 @@
-var $animation_elements = $('.animation-element');
 var $window = $(window);
 
 function check_if_in_view() {
     var window_height = $window.height();
     var window_top_position = $window.scrollTop();
     var window_bottom_position = (window_top_position + window_height);
-
+    var $animation_elements = $('.animation-element');
     $.each($animation_elements, function() {
         var $element = $(this);
         var element_height = $element.outerHeight();
