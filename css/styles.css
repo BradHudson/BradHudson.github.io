@@ -5,6 +5,43 @@
     background-color: #980013;
 }
 
+#middle-bar{
+    max-width: inherit;
+    background-color: #b30027;
+}
+
+#images #ruby-logo{
+    width: 80px;
+    height: 80px
+}
+
+#images img{
+    width: 60px;
+    height: 60px;
+}
+
+#personal-description{
+    display: block;
+    font-size: 115%;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: .35em;
+    word-spacing: .5em;
+    margin: .5em 0;
+    text-align: center;
+}
+
+#name {
+    font-size: 35px;
+    display: block;
+    font-family: 'Montserrat';
+    color: white;
+    text-transform: uppercase;
+    margin: .5em 0;
+    text-align: center;
+}
+
+
 #nav-center a{
     color: white;
     font-size: 20px;
@@ -17,8 +54,38 @@
 
 #nav-center a {
     font-size: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 130px;
+}
+
+#images{
+    text-align: center;
+    margin: 10px;
+}
+
+#images #ruby-logo{
+    width: 150px;
+    height: 150px;
+}
+
+#images img{
+    width: 100px;
+    height: 100px;
+}
+
+#middle-bar{
+    padding: 50px;
+}
+
+#name {
+    font-size: 45px;
+    display: block;
+    font-family: 'Montserrat';
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .35em;
+    word-spacing: .5em;
+    margin: .5em 0;
+    text-align: center;
 }
 
 }
