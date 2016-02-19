@@ -5,9 +5,25 @@
     background-color: #980013;
 }
 
+#nav-center{  
+    text-align: center;
+}
+
+#body{
+    background-color: #e4e4e4;
+}
+
 #middle-bar{
     max-width: inherit;
     background-color: #b30027;
+}
+
+#works-area{
+
+}
+
+#achievements{
+    background-color: #c6c6c6;
 }
 
 #images #ruby-logo{
@@ -46,6 +62,7 @@
     color: white;
     font-size: 20px;
     padding-left: 15px;
+    font-family: Lustria,Georgia;
 }
 
 
@@ -54,12 +71,12 @@
 
 #nav-center a {
     font-size: 30px;
-    padding-left: 130px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #images{
     text-align: center;
-    margin: 10px;
 }
 
 #images #ruby-logo{
@@ -93,8 +110,5 @@
 /* Large Screen */
 @media only screen and (min-width: 64.063em) {
 
-#nav-center a {
-    font-size: 40px;
-}
 
 }
