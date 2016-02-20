@@ -5,6 +5,16 @@
     background-color: #980013;
 }
 
+.bottom-bar{
+    max-width: inherit;
+    background-color: #980013;
+}
+
+.bottom-bar a{
+    color: black;
+    text-decoration: none;
+}
+
 #images{
     text-align: center;
 }
