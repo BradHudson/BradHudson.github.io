@@ -2,16 +2,17 @@
 /* Defaults and Small Screen Designed for Mobile First */
 #top-bar{
     max-width: inherit;
-    background-color: #980013;
+    background-color: black;
+    /*background-color: #980013;*/
 }
 
 .bottom-bar{
     max-width: inherit;
-    background-color: #980013;
+    background-color: black;
 }
 
 .bottom-bar a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -51,7 +52,8 @@
 
 #middle-bar{
     max-width: inherit;
-    background-color: #b30027;
+    background: linear-gradient( to right, #FF2CDD 0%, #2CFFBB 50%, #1EB69A, #271EB6 );
+    /*background-color: #b30027;*/
 }
 
 #works-area{
@@ -63,7 +65,7 @@
 }
 
 #works-area h3{
-    color: #b30027;
+    color: black;
     font-size: 2em;
 }
 
@@ -102,7 +104,7 @@
 #personal-description{
     display: block;
     font-size: 115%;
-    color: #999;
+    color: white;
     text-transform: uppercase;
     letter-spacing: .35em;
     word-spacing: .5em;
