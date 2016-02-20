@@ -48,6 +48,8 @@
 #avatar {
     border-radius: 150px;
     padding: 40px;
+    width: 280px;
+    height: 280px;
 }
 
 #middle-bar{
