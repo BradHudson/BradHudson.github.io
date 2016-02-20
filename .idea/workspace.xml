@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceadd49d-3b94-4ba5-89c1-f48e518af53a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csharp2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ruby-rails.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/foundation/foundation-flex.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/foundation/foundation.css" afterPath="$PROJECT_DIR$/css/foundation/foundation.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/foundation/foundation.min.css" afterPath="$PROJECT_DIR$/css/foundation/foundation.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/slide.css" afterPath="$PROJECT_DIR$/css/slide.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BradHudson.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35211268" vertical-offset="510" max-vertical-offset="2355">
-              <caret line="49" column="120" selection-start-line="49" selection-start-column="120" selection-end-line="49" selection-end-column="120" />
+            <state vertical-scroll-proportion="0.4460094" vertical-offset="945" max-vertical-offset="2340">
+              <caret line="82" column="78" selection-start-line="82" selection-start-column="78" selection-end-line="82" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -434,8 +426,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35211268" vertical-offset="510" max-vertical-offset="2355">
-          <caret line="49" column="120" selection-start-line="49" selection-start-column="120" selection-end-line="49" selection-end-column="120" />
+        <state vertical-scroll-proportion="0.4460094" vertical-offset="945" max-vertical-offset="2340">
+          <caret line="82" column="78" selection-start-line="82" selection-start-column="78" selection-end-line="82" selection-end-column="78" />
           <folding />
         </state>
       </provider>
