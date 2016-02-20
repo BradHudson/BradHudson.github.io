@@ -10,12 +10,11 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/slide.css">
-    <link rel="stylesheet" href="css/foundation/foundation.css">
-    <link rel="stylesheet" href="css/foundation/foundation.min.css">
-    <link rel="stylesheet" href="css/foundation/app.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/jquery.min.js"></script>
-    <script src="js/vendor/jquery.cookie.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <link rel="stylesheet" href="css/foundation/foundation.css">
+    <script src="js/vendor/modernizr.js"></script>
     <script src="js/scripts.js"></script>
 </head>
 
@@ -45,10 +44,10 @@
     </div>
     <div class="row fade-in one" id="images">
         <div class="small-9 small-centered columns">
-            <a href="https://www.ruby-lang.org/en/>" target="_blank"><img src="ruby.png" id="ruby-logo" alt="Mountain View"></a>
+            <a href="https://www.ruby-lang.org/en/" target="_blank"><img src="ruby.png" id="ruby-logo" alt="Mountain View"></a>
             <a href="https://github.com/BradHudson" target="_blank"><img src="githublogo.png" alt="Mountain View"></a>
             <a href="http://rubyonrails.org/" target="_blank"><img src="rails.png" alt="Mountain View"></a>
-            <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="_blank"><img src="csharp.png" alt="Mountain View"></a>
+            <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="_blank"><img src="csharp2.png" alt="Mountain View"></a>
         </div>
     </div>
 </div>
@@ -59,14 +58,42 @@
             <img src="matt2.jpeg" alt="Avatar" id="avatar">
         </div>
     </div>
-    <div class="row" id="hi-row">
+    <div class="row">
         <div class="small-12 small-centered columns">
-            <h3 id="hi-msg">Hi.</h3>
+            <h3>Hi.</h3>
         </div>
     </div>
-    <div class="row" id="intro-row">
+    <div class="row">
         <div class="small-12 medium-6 small-centered columns">
-            <p id="intro-msg">I'm a full stack developer based in Atlanta, Georgia. I have a passion for web design and love to create for web and mobile devices.</p>
+            <p>I'm a full stack developer based in Atlanta, Georgia. I have a passion for web design and love to create for web and mobile devices.</p>
+        </div>
+    </div>
+
+    <div class="row" id="what-do-header">
+        <div class="small-12 small-centered columns">
+            <h3>What I can do.</h3>
+        </div>
+    </div>
+    <div class="animation-element slide-left">
+        <div class="row language-row">
+            <div class="small-12 medium-3 medium-push-1 columns">
+                <img src="ruby-rails.jpg" alt="ruby-rails">
+            </div>
+            <div class="small-12 medium-5 medium-push-2 end columns">
+                <p class="language-desc">I started using Ruby on Rails at the beginning of 2015. At my current employer Careerbuilder,
+                we use rails for our mobile platform.</p>
+            </div>
+        </div>
+    </div>
+    <div class="animation-element slide-left">
+        <div class="row language-row">
+            <div class="small-12 medium-3 medium-push-1 columns">
+                <img src="csharp2.png" alt="csharp" id="csharp-image">
+            </div>
+            <div class="small-12 medium-5 medium-push-2 end columns">
+                <p class="language-desc">Our Legacy system is written in .net. We specifically utilize languages such as C#, VB,
+                and ASP.</p>
+            </div>
         </div>
     </div>
 </div>
@@ -75,7 +102,7 @@
     <!--<h3>Personal Achievements:</h3>-->
 <!--</div>-->
 
-<!--&lt;!&ndash; testimonial one &ndash;&gt;-->
+<!-- testimonial one -->
 <!--<div class="animation-element slide-left testimonial">-->
     <!--<div class="header">-->
         <!--<div class="left">-->

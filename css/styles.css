@@ -9,24 +9,29 @@
     text-align: center;
 }
 
+.language-row{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#csharp-image{
+    width:60%;
+}
+
+#rails-image{
+    width: 80%;
+}
+
 #nav-center{
     text-align: center;
 }
 
+#nav-center a {
+    text-decoration: none;
+}
+
 #body{
     background-color: #e4e4e4;
-}
-
-#body *{
-    font-family: 'Montserrat';
-}
-
-#hi-row{
-    text-align: center;
-}
-
-#avatar-row {
-    text-align: center;
 }
 
 #avatar {
@@ -43,12 +48,18 @@
     background-color: white;
 }
 
-#intro-row{
+#works-area .row{
     text-align: center;
 }
 
-#hi-msg{
+#works-area h3{
     color: #b30027;
+    font-size: 2em;
+}
+
+#what-do-header{
+    padding-top: 110px;
+    padding-bottom: 20px;
 }
 
 #works-area *{
@@ -110,6 +121,14 @@
 
 /* Medium Screen */
 @media screen and (min-width: 40.063em) {
+
+.language-desc{
+    padding-top: 60px
+}
+
+#rails-image{
+    width: 100%;
+}
 
 #nav-center a {
     font-size: 30px;
