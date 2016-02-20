@@ -17,13 +17,51 @@
     background-color: #e4e4e4;
 }
 
+#body *{
+    font-family: 'Montserrat';
+}
+
+#hi-row{
+    text-align: center;
+}
+
+#avatar-row {
+    text-align: center;
+}
+
+#avatar {
+    border-radius: 150px;
+    padding: 40px;
+}
+
 #middle-bar{
     max-width: inherit;
     background-color: #b30027;
 }
 
 #works-area{
+    background-color: white;
+}
 
+#intro-row{
+    text-align: center;
+}
+
+#hi-msg{
+    color: #b30027;
+}
+
+#works-area *{
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+#intro-msg{
+    font-size: 1.1em;
+    line-height: 1.4;
+    padding: 15px;
+    color: black;
 }
 
 #achievements{
@@ -66,7 +104,7 @@
     color: white;
     font-size: 20px;
     padding-left: 15px;
-    font-family: Lustria,Georgia;
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
 }
 
 
