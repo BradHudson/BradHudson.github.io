@@ -5,6 +5,16 @@
     background-color: lightgrey;
 }
 
+.line{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.line img{
+    height: 50px;
+    width: 50px;
+}
+
 .bottom-bar{
     max-width: inherit;
     padding: 15px;
@@ -52,8 +62,7 @@
 #middle-bar{
     max-width: inherit;
     background: linear-gradient( to right, #FF2CDD 0%, #2CFFBB 50%, #1EB69A, #271EB6 );
-    /*background-color: #b30027;*/
-}
+ }
 
 #works-area{
     background-color: white;
@@ -69,7 +78,7 @@
 }
 
 #what-do-header{
-    padding-top: 110px;
+    padding-top: 60px;
     padding-bottom: 20px;
 }
 
