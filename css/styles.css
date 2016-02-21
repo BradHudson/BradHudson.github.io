@@ -2,17 +2,19 @@
 /* Defaults and Small Screen Designed for Mobile First */
 #top-bar{
     max-width: inherit;
-    background-color: black;
-    /*background-color: #980013;*/
+    background-color: lightgrey;
 }
 
 .bottom-bar{
     max-width: inherit;
-    background-color: black;
+    padding: 15px;
+    background-color: lightgrey;
+    text-align: center;
 }
 
 .bottom-bar a{
-    color: white;
+    color: black;
+    padding: 15px;
     text-decoration: none;
 }
 
@@ -37,16 +39,11 @@
     text-align: center;
 }
 
-#nav-center a {
-    text-decoration: none;
-}
-
 #body{
     background-color: #e4e4e4;
 }
 
 #avatar {
-    border-radius: 150px;
     padding: 40px;
     width: 280px;
     height: 280px;
@@ -126,7 +123,8 @@
 
 
 #nav-center a{
-    color: white;
+    color: black;
+    text-decoration: none;
     font-size: 20px;
     padding-left: 15px;
     font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
@@ -135,6 +133,10 @@
 
 /* Medium Screen */
 @media screen and (min-width: 40.063em) {
+
+#works-area p{
+    font-size: 20px;
+}
 
 .language-desc{
     padding-top: 60px
