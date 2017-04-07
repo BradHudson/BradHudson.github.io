@@ -1,8 +1,9 @@
 
 /* Defaults and Small Screen Designed for Mobile First */
+
 #top-bar{
     max-width: inherit;
-    background-color: lightgrey;
+    background-color: black;
 }
 
 .line{
@@ -61,7 +62,7 @@
 
 #middle-bar{
     max-width: inherit;
-    background: linear-gradient( to right, #FF2CDD 0%, #2CFFBB 50%, #1EB69A, #271EB6 );
+    background: linear-gradient( to right, #B2FEFA 20%, #0ED2F7 );
  }
 
 #works-area{
@@ -121,18 +122,21 @@
 }
 
 #name {
-    font-size: 35px;
+    font-size: 80px;
     display: block;
     font-family: 'Montserrat';
     color: white;
     text-transform: uppercase;
+    letter-spacing: .35em;
+    word-spacing: .5em;
     margin: .5em 0;
     text-align: center;
+    margin-top: 200px;
 }
 
 
 #nav-center a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 20px;
     padding-left: 15px;
@@ -173,10 +177,13 @@
 
 #middle-bar{
     padding: 50px;
+    height: 100%;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1485609315582-cfffa02888e8?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=&bg=);
 }
 
 #name {
-    font-size: 45px;
+    font-size: 80px;
     display: block;
     font-family: 'Montserrat';
     color: white;
@@ -185,6 +192,7 @@
     word-spacing: .5em;
     margin: .5em 0;
     text-align: center;
+    margin-top: 150px;
 }
 
 }
@@ -193,6 +201,27 @@
 @media only screen and (min-width: 64.063em) {
 
 
+}
+
+/* About Page */
+
+.card{
+    margin-top: -150px;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.25);
+    background-color: white;
+    position: relative;
+}
+
+#about-body h1{
+    font-size: 45px;
+    display: block;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+#about-middle-bar{
+    margin-top: 20px;
 }
 
 

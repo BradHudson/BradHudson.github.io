@@ -2,6 +2,7 @@
 
 <html lang="en">
 <head>
+    <script src="js/vendor/jquery.js"></script>
     <meta charset="utf-8">
 
     <title>Brad Hudson - Full Stack Developer</title>
@@ -12,7 +13,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/slide.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <script src="js/vendor/jquery.js"></script>
+    
     <script src="js/foundation.min.js"></script>
     <link rel="stylesheet" href="css/foundation/foundation.css">
     <script src="js/vendor/modernizr.js"></script>
@@ -21,150 +22,101 @@
 
 <body id="body" class="fade-in">
 
-<div id="top-bar">
-    <div class="row" id="nav-center">
-        <div class="small-12 medium-centered columns">
-            <a href="about.html">About</a>
-            <a href="https://github.com/BradHudson" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/bradley-hudson-02508871" target="_blank">LinkedIn</a>
-            <a href="mailto:bradrayhudson@gmail.com" target="_blank">Contact</a>
-        </div>
-    </div>
-</div>
-
-<div id="middle-bar">
-    <div class="row">
-        <div class="small-12 medium-8 small-centered columns">
-            <h1 class="fade-in two" id="name">Brad Hudson</h1>
-        </div>
-    </div>
-    <div class="row">
-        <div class="small-12 medium-7 small-centered columns">
-            <span id="personal-description">FULL-STACK WEB DEVELOPER</span>
-        </div>
-    </div>
-    <div class="row fade-in one" id="images">
-        <div class="small-9 small-centered columns">
-            <a href="https://www.ruby-lang.org/en/" target="_blank"><img src="ruby.png" id="ruby-logo" alt="Mountain View"></a>
-            <a href="https://github.com/BradHudson" target="_blank"><img src="githublogo.png" alt="Mountain View"></a>
-            <a href="http://rubyonrails.org/" target="_blank"><img src="rails.png" alt="Mountain View"></a>
-            <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="_blank"><img src="csharp2.png" alt="Mountain View"></a>
-        </div>
-    </div>
-</div>
-
-<a name="about"></a>
-<div id="works-area">
-    <div class="row" id="avatar-row">
-        <div class="small-12 small-centered columns">
-            <img src="cup-of-coffee.jpg" alt="Avatar" id="avatar">
-        </div>
-    </div>
-    <div class="row">
-        <div class="small-12 small-centered columns">
-            <h3>Hi.</h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="small-12 medium-6 small-centered columns">
-            <p>I'm a full stack developer based in Atlanta, Georgia. I have a passion for web design and love to
-                develop beautiful applications.</p>
-        </div>
-    </div>
-
-    <div class="line">
-        <img src="three-dots.jpg">
-    </div>
-
-
-    <div class="row" id="what-do-header">
-        <div class="small-12 small-centered columns">
-            <h3>What I can do.</h3>
-        </div>
-    </div>
-    <div class="animation-element slide-left">
-        <div class="row language-row">
-            <div class="small-12 medium-3 medium-push-1 columns">
-                <img src="ruby-rails.jpg" alt="ruby-rails">
-            </div>
-            <div class="small-12 medium-5 medium-push-2 end columns">
-                <p class="language-desc">Ruby on Rails, sometimes known as "RoR" or just "Rails," is an open source
-                    framework for Web development in Ruby, an object-oriented programming (OOP) language.</p>
+    <div id="top-bar">
+        <div class="row" id="nav-center">
+            <div class="small-12 medium-centered columns">
+                <a href="about.html">About</a>
+                <a href="https://github.com/BradHudson" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/bradley-hudson-02508871" target="_blank">LinkedIn</a>
+                <a href="mailto:bradrayhudson@gmail.com" target="_blank">Contact</a>
             </div>
         </div>
     </div>
-    <div class="animation-element slide-left">
-        <div class="row language-row">
-            <div class="small-12 medium-3 medium-push-1 columns">
-                <img src="csharp2.png" alt="csharp" id="csharp-image">
+
+    <div id="middle-bar">
+        <div class="row">
+            <div class="small-12 medium-10 small-centered columns">
+                <h1 class="fade-in two" id="name">Brad Hudson</h1>
             </div>
-            <div class="small-12 medium-5 medium-push-2 end columns">
-                <p class="language-desc">C# is an elegant and type-safe object-oriented language that enables
-                    developers to build a variety of secure and robust applications that run on the .NET Framework.</p>
+        </div>
+        <!--<div class="row">
+            <div class="small-12 medium-7 small-centered columns">
+                <span id="personal-description">FULL-STACK WEB DEVELOPER</span>
+            </div>
+        </div>-->
+        <div class="row fade-in one" id="images">
+            <div class="small-9 small-centered columns">
+                <a href="https://www.ruby-lang.org/en/" target="_blank"><img src="ruby.png" id="ruby-logo" alt="Mountain View"></a>
+                <a href="https://github.com/BradHudson" target="_blank"><img src="https://www.enterprisemodules.com/images/github-icon.png" alt="Mountain View"></a>
+                <a href="http://rubyonrails.org/" target="_blank"><img src="http://moonahmed.com/assets/images/theme_images/programming-icons/rails.png" alt="Mountain View"></a>
+                <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="_blank">
+                    <img src="csharp2.png" alt="Mountain View">
+                </a>
             </div>
         </div>
     </div>
-</div>
 
-<div class="bottom-bar">
-    <div class="row">
-        <div class="small-12 small-centered columns">
-            <a href="https://www.linkedin.com/in/bradley-hudson-02508871" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-            <a href="https://github.com/BradHudson" target="_blank"><i class="fa fa-github-alt fa-2x"></i></a>
-            <a href="mailto:bradrayhudson@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x"></i></a>
+    <a name="about"></a>
+    <div id="works-area">
+        <div class="row" id="avatar-row">
+            <div class="small-12 small-centered columns">
+                <img src="cup-of-coffee.jpg" alt="Avatar" id="avatar">
+            </div>
         </div>
-    </div>
-</div>
+        <div class="row">
+            <div class="small-12 small-centered columns">
+                <h3>Hi.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="small-12 medium-6 small-centered columns">
+                <p>I'm a full stack developer based in Atlanta, Georgia. I have a passion for web design and love to
+                    develop beautiful applications.</p>
+            </div>
+        </div>
 
-<!--<div id="achievements">-->
-    <!--<h3>Personal Achievements:</h3>-->
-<!--</div>-->
-
-<!-- testimonial one -->
-<!--<div class="animation-element slide-left testimonial">-->
-    <!--<div class="header">-->
-        <!--<div class="left">-->
-            <!--<img src="http://drive.google.com/uc?export=download&id=0B7UPM0QugWUjVTdZcktRTWhNamM" />-->
-        <!--</div>-->
-        <!--<div class="right">-->
-            <!--<h3>Johnathon Richard Smith</h3>-->
-            <!--<h4>CEO / Manager - Auto Incorporated</h4>-->
-        <!--</div>-->
-    <!--</div>-->
-    <!--<div class="content"><i class="fa fa-quote-left"></i> When I started using their service I was skeptical. They promised me a 300% return on my initial investment. However they came through on their word and now my business is flourishing.. <i class="fa fa-quote-right"></i>-->
-    <!--</div>-->
-    <!--<div class="rating">-->
-        <!--<i class="fa fa-star"></i>-->
-        <!--<i class="fa fa-star"></i>-->
-        <!--<i class="fa fa-star"></i>-->
-        <!--<i class="fa fa-star"></i>-->
-        <!--<i class="fa fa-star-half-o"></i>-->
-    <!--</div>-->
-<!--</div>-->
-<!--&lt;!&ndash;testimonial two &ndash;&gt;-->
-<!--<div class="animation-element slide-left testimonial">-->
-    <!--<div class="header">-->
-        <!--<div class="left">-->
-            <!--<img src="http://drive.google.com/uc?export=download&id=0B7UPM0QugWUjV3BseTMtcEU1T2M" />-->
-        <!--</div>-->
-        <!--<div class="right">-->
-            <!--<h3>Joanna Hammerlton</h3>-->
-            <!--<h4>Marketing Manager - Omega Creative</h4>-->
-        <!--</div>-->
-    <!--</div>-->
-    <!--<div class="content"><i class="fa fa-quote-left"></i> Our company first enlisted their services when we had a down-turn in sales and revene. They outlined a series of steps we could take to improve our position and within a year we are making signifcant improvements..-->
-        <!--<i class="fa fa-quote-right"></i>-->
-    <!--</div>-->
-    <!--<div class="rating">-->
-        <!--<i class="fa fa-star"></i>-->
-        <!--<i class="fa fa-star"></i>-->
-        <!--<i class="fa fa-star"></i>-->
-        <!--<i class="fa fa-star"></i>-->
-        <!--<i class="fa fa-star-o"></i>-->
-    <!--</div>-->
-<!--</div>-->
+        <div class="line">
+            <img src="three-dots.jpg">
+        </div>
 
 
+        <div class="row" id="what-do-header">
+            <div class="small-12 small-centered columns">
+                <h3>What I can do.</h3>
+            </div>
+        </div>
+        <div class="animation-element slide-left">
+            <div class="row language-row">
+                <div class="small-12 medium-3 medium-push-1 columns">
+                    <img src="ruby-rails.jpg" alt="ruby-rails">
+                </div>
+                <div class="small-12 medium-5 medium-push-2 end columns">
+                    <p class="language-desc">Ruby on Rails, sometimes known as "RoR" or just "Rails," is an open source
+                        framework for Web development in Ruby, an object-oriented programming (OOP) language.</p>
+                </div>
+            </div>
+        </div>
+            <div class="animation-element slide-left">
+                <div class="row language-row">
+                    <div class="small-12 medium-3 medium-push-1 columns">
+                    <img src="csharp2.png" alt="csharp" id="csharp-image">
+                    </div>
+                    <div class="small-12 medium-5 medium-push-2 end columns">
+                    <p class="language-desc">C# is an elegant and type-safe object-oriented language that enables
+                        developers to build a variety of secure and robust applications that run on the .NET Framework.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-</body>
+        <div class="bottom-bar">
+            <div class="row">
+                <div class="small-12 small-centered columns">
+                    <a href="https://www.linkedin.com/in/bradley-hudson-02508871" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+                    <a href="https://github.com/BradHudson" target="_blank"><i class="fa fa-github-alt fa-2x"></i></a>
+                    <a href="mailto:bradrayhudson@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
