@@ -2,6 +2,8 @@
 
 #middle-bar {
     padding: 50px;
+    max-width: inherit;
+    background: linear-gradient( to right, #B2FEFA 20%, #0ED2F7);
 }
 #top-bar {
     max-width: inherit;
@@ -49,10 +51,6 @@
     padding: 40px;
     width: 280px;
     height: 280px;
-}
-#middle-bar {
-    max-width: inherit;
-    background: linear-gradient( to right, #B2FEFA 20%, #0ED2F7);
 }
 #works-area {
     background-color: white;
