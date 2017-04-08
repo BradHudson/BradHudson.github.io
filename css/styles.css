@@ -1,116 +1,97 @@
-
 /* Defaults and Small Screen Designed for Mobile First */
 
-#top-bar{
+#middle-bar {
+    padding: 50px;
+    height: 100%;
+}
+#top-bar {
     max-width: inherit;
     background-color: black;
 }
-
-.line{
+.line {
     text-align: center;
     padding-top: 60px;
 }
-
-.line img{
+.line img {
     height: 50px;
     width: 50px;
 }
-
-.bottom-bar{
+.bottom-bar {
     max-width: inherit;
     padding: 15px;
     background-color: lightgrey;
     text-align: center;
 }
-
-.bottom-bar a{
+.bottom-bar a {
     color: black;
     padding: 15px;
     text-decoration: none;
 }
-
-#images{
+#images {
     text-align: center;
 }
-
-.language-row{
+.language-row {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
-#csharp-image{
-    width:60%;
+#csharp-image {
+    width: 60%;
 }
-
-#rails-image{
+#rails-image {
     width: 80%;
 }
-
-#nav-center{
+#nav-center {
     text-align: center;
 }
-
-#body{
+#body {
     background-color: #e4e4e4;
 }
-
 #avatar {
     padding: 40px;
     width: 280px;
     height: 280px;
 }
-
-#middle-bar{
+#middle-bar {
     max-width: inherit;
-    background: linear-gradient( to right, #B2FEFA 20%, #0ED2F7 );
- }
-
-#works-area{
+    background: linear-gradient( to right, #B2FEFA 20%, #0ED2F7);
+}
+#works-area {
     background-color: white;
 }
-
-#works-area .row{
+#works-area .row {
     text-align: center;
 }
-
-#works-area h3{
+#works-area h3 {
     color: black;
     font-size: 2em;
 }
-
-#what-do-header{
+#what-do-header {
     padding-top: 60px;
     padding-bottom: 20px;
 }
-
-#works-area *{
-    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+#works-area * {
+    font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 500;
     line-height: 1.1;
 }
-
-#intro-msg{
+#intro-msg {
     font-size: 1.1em;
     line-height: 1.4;
     padding: 15px;
     color: black;
 }
-
-#achievements{
+#achievements {
     background-color: #c6c6c6;
 }
-
-#images #ruby-logo{
+#images #ruby-logo {
     width: 80px;
     height: 80px
 }
-
-#images img{
+#images img {
     width: 60px;
     height: 60px;
 }
-
-#personal-description{
+#personal-description {
     display: block;
     font-size: 115%;
     color: white;
@@ -120,9 +101,8 @@
     margin: .5em 0;
     text-align: center;
 }
-
 #name {
-    font-size: 80px;
+    font-size: 40px;
     display: block;
     font-family: 'Montserrat';
     color: white;
@@ -131,133 +111,126 @@
     word-spacing: .5em;
     margin: .5em 0;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 100px;
 }
-
-
-#nav-center a{
+#nav-center a {
     color: white;
     text-decoration: none;
     font-size: 20px;
     padding-left: 15px;
-    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
-
-
-/* Medium Screen */
-@media screen and (min-width: 40.063em) {
-
-#works-area p{
-    font-size: 20px;
-}
-
-.language-desc{
-    padding-top: 60px
-}
-
-#rails-image{
-    width: 100%;
-}
-
-#nav-center a {
-    font-size: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-#images #ruby-logo{
-    width: 150px;
-    height: 150px;
-}
-
-#images img{
-    width: 100px;
-    height: 100px;
-}
-
-#middle-bar{
-    padding: 50px;
-    height: 100%;
-    background-size: cover;
-    background-image: url(https://images.unsplash.com/photo-1485609315582-cfffa02888e8?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=&bg=);
-}
-
-#name {
-    font-size: 80px;
-    display: block;
-    font-family: 'Montserrat';
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: .35em;
-    word-spacing: .5em;
-    margin: .5em 0;
-    text-align: center;
-    margin-top: 150px;
-}
-
-}
-
-/* Large Screen */
-@media only screen and (min-width: 64.063em) {
-
-
-}
-
 /* About Page */
 
-.card{
+.card {
     margin-top: -150px;
     border-radius: 3px;
-    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.25);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
     background-color: white;
     position: relative;
 }
-
-#about-body h1{
+#about-body h1 {
     font-size: 45px;
     display: block;
     font-family: 'Montserrat';
     text-align: center;
 }
-
-#about-middle-bar{
+#about-middle-bar {
     margin-top: 20px;
 }
+/* Medium Screen */
 
+@media screen and (min-width: 40.063em) {
+    #name {
+        font-size: 70px;
+        display: block;
+        margin-top: 100px;
+    }
+    #works-area p {
+        font-size: 20px;
+    }
+    .language-desc {
+        padding-top: 60px
+    }
+    #rails-image {
+        width: 100%;
+    }
+    #nav-center a {
+        font-size: 30px;
+        padding-right: 50px;
+    }
+    #images #ruby-logo {
+        width: 150px;
+        height: 150px;
+    }
+    #images img {
+        width: 100px;
+        height: 100px;
+    }
+    #middle-bar {
+        padding: 50px;
+        height: 100%;
+        background-size: cover;
+        background-image: url(https://images.unsplash.com/photo-1485609315582-cfffa02888e8?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=&bg=);
+    }
+}
+/* Large Screen */
 
+@media only screen and (min-width: 64.063em) {}
 /* Fade in */
 
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-
-.fade-in {
-    opacity:0;  /* make things invisible upon start */
-    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-    -moz-animation:fadeIn ease-in 1;
-    animation:fadeIn ease-in 1;
-
-    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-    -moz-animation-fill-mode:forwards;
-    animation-fill-mode:forwards;
-
-    -webkit-animation-duration:1s;
-    -moz-animation-duration:1s;
-    animation-duration:1s;
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
-
+@-moz-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fade-in {
+    opacity: 0;
+    /* make things invisible upon start */
+    
+    -webkit-animation: fadeIn ease-in 1;
+    /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    
+    -moz-animation: fadeIn ease-in 1;
+    animation: fadeIn ease-in 1;
+    -webkit-animation-fill-mode: forwards;
+    /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+}
 .fade-in.one {
     -webkit-animation-delay: 0.7s;
     -moz-animation-delay: 0.7s;
     animation-delay: 0.7s;
 }
-
 .fade-in.two {
     -webkit-animation-delay: 1.2s;
-    -moz-animation-delay:1.2s;
+    -moz-animation-delay: 1.2s;
     animation-delay: 1.2s;
 }
-
 .fade-in.three {
     -webkit-animation-delay: 1.6s;
     -moz-animation-delay: 1.6s;
