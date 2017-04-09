@@ -1,5 +1,14 @@
 /* Defaults and Small Screen Designed for Mobile First */
-
+.description-text{
+    display: block;
+    font-family: 'Montserrat';
+    color: white;
+    margin: .5em 0;
+    text-align: center;
+}
+.bump{
+    padding-top: 16px;
+}
 #middle-bar {
     padding: 50px;
     max-width: inherit;
@@ -98,7 +107,7 @@
     margin: .5em 0;
     text-align: center;
 }
-#name {
+.name-header {
     font-size: 40px;
     display: block;
     font-family: 'Montserrat';
@@ -119,8 +128,12 @@
 }
 /* About Page */
 
-.card {
+.margin-top {
     margin-top: -150px;
+}
+
+.card {
+    padding: 16px;
     border-radius: 3px;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
     background-color: white;
@@ -133,12 +146,13 @@
     text-align: center;
 }
 #about-middle-bar {
-    margin-top: 20px;
+    height: 70%;
+    background-image: url("http://marketingland.com/wp-content/ml-loads/2014/08/writing-content-notes-ss-1920.jpg");
 }
 /* Medium Screen */
 
 @media screen and (min-width: 40.063em) {
-    #name {
+    .name-header {
         font-size: 70px;
         display: block;
         margin-top: 100px;
